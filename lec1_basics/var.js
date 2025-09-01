@@ -6,7 +6,7 @@ let accountName;
 
 // accountId=2  //not allowed hai const to change krna
 
-accountEmail="mehoondon@gmailo.com"
+accountEmail="mehoondon@gmail.com"
 accountPassword="345"
 accountCity = "agra"
  console.log(accountId);
@@ -15,3 +15,4 @@ accountCity = "agra"
 // console.log(accountEmail); //table k form me sabko sath me leleneg
 
 console.table([accountEmail,accountId,accountPassword,accountCity , accountName]); // yeh change ho jayega
+    
