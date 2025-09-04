@@ -15,7 +15,7 @@ let age = 24;          //num
 let isloggedIn = false    //boolean
 //null => standalone value i.e. empty value
 //undefined => not defined 
-//symbol => to find uniquene
+//symbol => to find unique-ness
 
 //baadme padenge object
 
