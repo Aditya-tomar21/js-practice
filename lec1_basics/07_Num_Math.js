@@ -14,7 +14,7 @@
 
 /*********************************           MATHS      *********************************/
 
-// console.log(Math); //EK OBJECT JISKE METHODS HOTE HAI BHOT SAARE
+// console.log(Math); //Math EK OBJECT JISKE METHODS HOTE HAI BHOT SAARE
 
 // console.log(Math.abs(-44));   // absolute- negative to positive
 // console.log(Math.round(4.7));  //round off  , isme floor and ceil bhi hota hai
