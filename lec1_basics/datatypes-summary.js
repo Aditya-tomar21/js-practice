@@ -21,7 +21,7 @@
 
 
  
- //refernce or non primitive
+ //refernce or non primitive  direct value pass hogi without copy
 //Array , Objects , Functions
 
 const heros = ["goku" , "luffy", "naruto"]
@@ -40,4 +40,37 @@ const myFunction =function(){
 
 
 
+/***************************************         MEMORY IN JS                 ********************/
 
+//STACK MEMORY(primitive) , HEAP MEMORY(non primitive)
+
+
+//EXMAPLE OF STACK MEMORY - PRIMITIVE
+let myEmail = "aditya@gamil.com"
+let myNewemail = myEmail;
+//  console.log(myNewemail);
+//  console.log(myEmail);
+
+
+ myEmail = "goku@gamil.com";  
+ /************    kyuki copy change hoga not the original value   ***********/
+
+//   console.log(myNewemail);
+//  console.log(myEmail);
+
+
+//EXAMPLE OF HEAP MEMORY /NON PRIMITIVE
+let userOne ={
+    email : "nepali.google.com",
+    upiId : "123@sbi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "momos.google.com"; 
+/********    original me change kr dega ie userOne me change hoga   ********/
+
+// console.log(userOne);
+
+ 
+ 
