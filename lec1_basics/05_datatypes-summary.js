@@ -45,7 +45,7 @@ const myFunction =function(){
 //STACK MEMORY(primitive) , HEAP MEMORY(non primitive)
 
 
-//EXMAPLE OF STACK MEMORY - PRIMITIVE
+//EXMAPLE OF STACK MEMORY - PRIMITIVE    
 let myEmail = "aditya@gamil.com"
 let myNewemail = myEmail;
 //  console.log(myNewemail);
