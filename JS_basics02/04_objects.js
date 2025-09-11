@@ -67,13 +67,61 @@ const users =
 
  ]
 
-console.log( users[1].email);
+// console.log( users[1].email);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); //array data types aata hai isme
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); //array of array type deta hai
+// console.log(Object.keys(tinderUser)); //array data types aata hai isme
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); //array of array type deta hai
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+/**************                      De-Structuring of object     ******************** */
+
+const course =
+{
+    cousreName : "JSinHindi",
+    price: "999",
+    instructor : "hitesh"
+}
+
+//course.instructor
+//new way of doing this
+
+const {instructor:ins} = course  //ab instructor ban gaya ins and bina course,ins kre aisi hoga
+console.log(ins);
+
+
+
+
+
+//////////// //react ka hai niche
+///////                 const navbar = ({company}) =>
+////////            {
+
+//////////          }
+//////////////              navbar(company = "aditya")
+
+
+
+
+ //////***********                            API                   *********************** */
+
+ //yeh hai json
+
+// {
+//    " name":"adi",
+//     "coursename": "javascript",
+//     "price": "free"
+// }
+
+
+//kabhi kabhi api array k form me milti hai
+[
+    {},
+    {},
+    {}
+]
