@@ -103,4 +103,6 @@ function  returnSECvalue(getArray)
  }
  //console.log(returnSECvalue(myNewArray));
  console.log(returnSECvalue([28,36,46,56,66]));    //both works
+
+ 
  
