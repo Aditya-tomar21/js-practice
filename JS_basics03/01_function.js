@@ -53,7 +53,54 @@ function loggedInMess(username = "sammer")  //minimun default value dedi hai
 }
 
 
-console.log(loggedInMess());
-console.log(loggedInMess("adibhaiii"));
+// console.log(loggedInMess());
+// console.log(loggedInMess("adibhaiii"));
 
 //if any value isnt passed it give undefined
+
+//       ... REST operator bhi hota hai and SPREAD operator bhi usecase ki hisab se
+
+
+ function calculateCartPrice(...num1) {
+   return num1
+ }
+
+// console.log(calculateCartPrice(20,30,40,55));
+
+
+
+// function calculateCartPrice(VAL1 , VAL2 ,...num1) {
+//   return num1
+// }
+// console.log(calculateCartPrice(20,30,40,55));
+
+const user = 
+{
+  username: "aditya",
+  price : 999
+}
+
+function handleObject(anyobject)
+{
+  console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+  
+}
+// handleObject(user)
+
+
+handleObject({
+  username:"bhoolla",
+  price:9999
+})
+
+
+const myNewArray = [66,55,44,33,22]
+
+function  returnSECvalue(getArray)
+ {
+  return getArray[1]
+  
+ }
+ //console.log(returnSECvalue(myNewArray));
+ console.log(returnSECvalue([28,36,46,56,66]));    //both works
+ 
