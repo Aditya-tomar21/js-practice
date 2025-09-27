@@ -32,7 +32,7 @@ for (const [key,value] of map) {
 //     'game2' : 'spiderman'
 // }
 
-// for (const [key,value] of myObject) {    // object are not iteratable
+// for (const [key,value] of myObject) {    // object are not iteratable by this forof
 //     console.log(key,value);
     
 // }
