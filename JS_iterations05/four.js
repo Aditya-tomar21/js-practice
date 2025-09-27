@@ -1,4 +1,5 @@
-// //making object for ex
+/**********************       for- in */
+// //making object for example
 // const myObject = {
 //     js:'javascript',
 //     cpp:'c++',
