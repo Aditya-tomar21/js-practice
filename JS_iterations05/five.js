@@ -13,11 +13,11 @@ const coding = ["js","py","cpp","ruby"]
     
 // })
 
-//******************************** */  by refercing a function into foreach
+//******************************** */  by refercing a function into for-each
 // function printme(keys){
 //     console.log(keys);
 // }
-// coding.forEach(printme)
+// coding.forEach(printme)  //directly calling by function name
 
 /*********************************** */
 
@@ -25,6 +25,9 @@ const coding = ["js","py","cpp","ruby"]
 //     console.log(item,index,array);
     
 // })
+
+
+///  array of objects and iterating it using for each
 
 const mycoding = [
     {
