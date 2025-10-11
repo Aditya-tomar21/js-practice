@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html events</title>
+</head>
+<body style="background-color: rgb(38, 37, 37); color: aliceblue;">
+    <h2>amazing</h2>
+    <ul id="images">
+        <li><img width="200px" id="photoshop" src="https://wallpapersafari.com/image/girl-anime-4k-wallpapers.jpg" alt="photoshop"></li>
+
+        <li><img width="200px" id="ladies" src="https://wallpapercave.com/wp/2xF3MmY.jpg" alt="photoshop"></li>
+
+        <li><img width="200px" id="dark" src="https://wallpapers.com/images/hd/anime-all-characters-hd-2732-x-1536-drsuwk28ylkr5t1g.jpg" alt=""></li>
+
+        <li><img width="200px" id="ghost" src="https://wallpapercave.com/wp/NMMRXa5.jpg" alt=""></li>
+
+        <li><a style="color: aliceblue;" href="https://www.google.com/" id="google">google</a></li>
+    </ul>
+    
+</body>
+
+<script>
+
+// document.getElementById('ladies').onclick = function()
+// {
+//     alert("ladies image click")
+// }
+
+//attachEvent()
+//jQuery - onEventlistener  these were used
+
+// to study - timestamp , defaultPrevented , type , target , toElement , srcElement , currentTarget , client position , clientX , clientY , ScreenY , screenX , altKey , ctrlKey , KeyCode , Shiftkey
+
+
+// document.getElementById('images').addEventListener('click', function(e){
+//     console.log("clicked inside ul");
+    
+// } )
+
+
+// document.getElementById('ladies').addEventListener('click', function(e){
+//     console.log('ladies clicked' );
+//     e.stopPropagation()
+    
+// } , true)
+
+// document.getElementById('google').addEventListener
+// ('click', function(e){
+//      e.preventDefault();
+//      e.stopPropagation();
+//     console.log('google skipped');
+   
+// } ,false)
+// //event propogation - bubbling and capturing - true false
+
+
+document.querySelector('#images').addEventListener('click', function(e){
+      console.log(e.target.parentNode);
+      if(e.target.tagName === 'IMG')
+      {
+         let removeIt = e.target.parentNode
+      removeIt.remove()
+       // removeIt.parentNode.removeChild(removeIt)
+      }
+     
+},false)
+
+
+</script>
+</html>
