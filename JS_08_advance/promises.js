@@ -138,6 +138,7 @@ consumePromiseFive();
 
 
 //getting directly using fetch()
+
 fetch('https://api.github.com/users/aditya-tomar21')     // promise return krega yaani reposne ka wait krna padega
 .then((response)=>{
     return response.json()
@@ -146,3 +147,5 @@ fetch('https://api.github.com/users/aditya-tomar21')     // promise return krega
     
 })
 .catch((error)=>console.log(error))
+
+//fetch k liye special queue banti hai , jisse yeh priority hotihai - microTaskQueue
