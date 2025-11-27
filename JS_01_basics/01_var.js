@@ -4,7 +4,7 @@ var accountPassword = "123456"
 accountCity = "jaipur"
 let accountName;
 
-// accountId=2  //not allowed hai const to change krna
+// accountId=2  //not allowed hai const to change krna 
 
 accountEmail="mehoondon@gmail.com"
 accountPassword="345"
