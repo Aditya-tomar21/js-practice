@@ -16,11 +16,13 @@
 
 <body class="bg-black">
     <div>
-        <h1 id="title" class="heading"> DOM learning on Chai & Code<span style="display:none;">test text </span></h1>
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Lorem ipsum dolor sit.</h2>
+        <h1 id="title" class="heading">  DOM learning on Chai & Code
+            <span style="display:none;">test text </span>
+        </h1>
+        <h2 class="list-item">Lorem </h2>
+        <h2 class="list-item">Lorem ipsum </h2>
+        <h2 class="list-item">Lorem ipsum dolor </h2>
+        <h2 class="list-item">Lorem ipsum dolor </h2>
         <p>Lorem ipsum dolor sit amet.</p>
 
         <ul>
@@ -32,3 +34,85 @@
 </body>
 
 </html>
+
+<!-- 
+NOTE: few JS dom manipulations
+
+1)
+document.getElementById("title")
+
+
+2)
+const title = document.getElementById('title')
+
+
+3) 
+title.style.color="green"
+
+
+4) 
+title.style.backgroundColor='yellow'
+
+
+5) 
+title.innerText
+'DOM learning on Chai & Code'
+
+
+6) 
+title.textContent
+' \n            DOM learning on Chai & Code\n            test text \n 
+
+
+7) 
+title.innerHTML
+' \n            DOM learning on Chai &amp; Code\n            <span style="display:none;">test text </span>\n        
+
+
+8)
+document.querySelector('h2')
+<h2>​Lorem ​</h2>​
+
+9)
+document.querySelector('#title')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+10)
+const MyUl =document.querySelector('ul')
+const MyLi = MyUl.querySelector('li')
+
+MyLi.style.backgroundColor='red'
+red
+
+11)
+MyLi.innerHTML="69"
+'69'
+
+
+12)
+TempLiList=document.querySelectorAll('li')
+NodeList(3) [li, li, li]
+
+13)
+const h2=document.querySelectorAll('h2')
+undefined
+h2  ->  NodeList(4) [h2, h2, h2, h2]0: h21: h22: h23: h2length: 4[[Prototype]]: NodeList
+
+h2.forEach((item) => (item.style.color='pink'));
+
+
+14)
+const listItem = document.getElementsByClassName('list-item')
+
+listItem
+HTMLCollection(4) [h2.list-item, h2.list-item, h2.list-item, h2.list-item]
+
+const myArr = Array.from(listItem)    html collection->array
+myArr.forEach((item)=>(item.style.color='blue'))
+
+
+
+
+
+
+-->
