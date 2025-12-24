@@ -2,36 +2,42 @@
 
 
 // const myNums = [1,2,3,4,5,6,7,8,9,10]
+ // const newNums = myNums.map( (num)=>(num + 10 ) )
 
-// // const newNums = myNums.map( (num)=>(num + 10 ) )
 
 
-// //****************************             chaining of map , map 
+
+// -------------     chaining of map ( map , map)  ------------>
+
 // const newNums = myNums
 //                       .map( (num) => num*10 )
-//                       .map( (num) => num+1 )   // isme nums ki chnaged ho chuki value ayegi ie num*10
+//                       .map( (num) => num+1 )   
 //                       .filter( (num) => num>=40)
 // console.log(newNums);
 
 
+//NOTE: second .map me nums ki changed ho chuki value ayegi ie num*10
 
 
-/*                            Reduce                                          */
 
+
+//---------------------------       Reduce     ----------->
 
 const myNums = [1,2,3]
 
-//using normal function
+//--------------using normal function------------->
 
 // const myTotal = myNums.reduce( function (acc ,currVal)
 //  {
 //     console.log(`acc:${acc} and currVal:${currVal}`);
 //     return acc+currVal
 
-// }, 3)
+// }, 3) 
+// 3 is starting value for acc:accumulator ,currVal: CurrentValue
 
 
-//using arrow function
+//--------------------using arrow function--------->
+
 // const myTotal = myNums.reduce( (acc,curr) => (acc+curr),0)
 // console.log(myTotal);
 

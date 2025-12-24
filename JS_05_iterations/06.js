@@ -16,7 +16,7 @@
 
 //************* using           filter         that returns some value if needed  */
 
- const myNums = [1,2,3,4,5,6,7,8,9,10]
+  const myNums = [1,2,3,4,5,6,7,8,9,10]
 // // const newNums = myNums.filter(   (num) => (num>5)  )   // return bina likhe hota hai ()=>()  se
 
 // const newNums = myNums.filter(   (num) => {
@@ -42,7 +42,7 @@
 
 
 
-//    using filter in array of objects   for real life example
+//    using filter in         ARRAY_of_OBJECTS                     ... 
 const books = [
   {
     bookName: "The Alchemist",
