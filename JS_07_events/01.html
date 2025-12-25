@@ -8,15 +8,26 @@
 <body style="background-color: rgb(38, 37, 37); color: aliceblue;">
     <h2>amazing</h2>
     <ul id="images">
-        <li><img width="200px" id="photoshop" src="https://wallpapersafari.com/image/girl-anime-4k-wallpapers.jpg" alt="photoshop"></li>
 
-        <li><img width="200px" id="ladies" src="https://wallpapercave.com/wp/2xF3MmY.jpg" alt="photoshop"></li>
+        <li>
+            <img width="200px" id="photoshop" src="https://wallpapersafari.com/image/girl-anime-4k-wallpapers.jpg" alt="photoshop">
+        </li>
 
-        <li><img width="200px" id="dark" src="https://wallpapers.com/images/hd/anime-all-characters-hd-2732-x-1536-drsuwk28ylkr5t1g.jpg" alt=""></li>
+        <li>
+            <img width="200px" id="ladies" src="https://wallpapercave.com/wp/2xF3MmY.jpg" alt="photoshop">
+        </li>
 
-        <li><img width="200px" id="ghost" src="https://wallpapercave.com/wp/NMMRXa5.jpg" alt=""></li>
+        <li>
+            <img width="200px" id="goku" src="https://imgs.search.brave.com/E8Ryk-_1jnXiJ9vhFNqw0yfqonBqPIuOVDMYs7688E0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/eHRyYWZvbmRvcy5j/b20vdGh1bWJzLzFf/MTMxMzYuanBn">
+        </li>
 
-        <li><a style="color: aliceblue;" href="https://www.google.com/" id="google">google</a></li>
+        <li>
+            <img width="200px" id="ghost" src="https://wallpapercave.com/wp/NMMRXa5.jpg" alt="">
+        </li>
+
+        <li>
+            <a style="color: aliceblue;" href="https://www.google.com/" id="google">google</a>
+        </li>
     </ul>
     
 </body>
@@ -28,16 +39,14 @@
 //     alert("ladies image click")
 // }
 
-//attachEvent()
-//jQuery - onEventlistener  these were used
-
-// to study - timestamp , defaultPrevented , type , target , toElement , srcElement , currentTarget , client position , clientX , clientY , ScreenY , screenX , altKey , ctrlKey , KeyCode , Shiftkey
+//(2) ------------------------------------------------------------------------------------------------->
 
 
 // document.getElementById('images').addEventListener('click', function(e){
 //     console.log("clicked inside ul");
-    
 // } )
+
+// (3)------------------------------------------------------------------------------------------------->
 
 
 // document.getElementById('ladies').addEventListener('click', function(e){
@@ -46,6 +55,9 @@
     
 // } , true)
 
+// (4)------------------------------------------------------------------------------------------------->
+
+
 // document.getElementById('google').addEventListener
 // ('click', function(e){
 //      e.preventDefault();
@@ -53,7 +65,11 @@
 //     console.log('google skipped');
    
 // } ,false)
+
 // //event propogation - bubbling and capturing - true false
+
+
+// ------------------------------------------------------------------------------------------------->
 
 
 document.querySelector('#images').addEventListener('click', function(e){
@@ -70,3 +86,11 @@ document.querySelector('#images').addEventListener('click', function(e){
 
 </script>
 </html>
+
+
+
+
+<!-- attachEvent()
+jQuery - onEventlistener  these were used
+
+ to study - timestamp , defaultPrevented , type , target , toElement , srcElement , currentTarget , client position , clientX , clientY , ScreenY , screenX , altKey , ctrlKey , KeyCode , Shiftkey -->
