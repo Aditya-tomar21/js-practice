@@ -13,17 +13,16 @@
 </body>
 
 <script>
-    const sayAdi = function(){
-        console.log("aditya bhai");
+    // const sayAdi = function(){
+    //     console.log("aditya bhai");
         
-     } 
+    //  } 
 
     const sayText = function(){document.querySelector('h1').innerHTML = "me hoon don"} 
-
-
     const changeMe = setTimeout(sayText, 2000)
 
     // clearTimeout(changeMe)
+    
     document.querySelector('#stop').addEventListener('click',function(){
         clearTimeout(changeMe);
         console.log("stoppped");  
