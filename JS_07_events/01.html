@@ -44,21 +44,26 @@
 
 // document.getElementById('images').addEventListener('click', function(e){
 //     console.log("clicked inside ul");
-// } )
+// },false )                   // false default, e- event object
 
 // document.getElementById('ladies').addEventListener('click', function(e){
 //     console.log('ladies clicked' );
 //     e.stopPropagation()
     
-// } , true)   
+// } ,false ) 
+
+
 // above is event propogation exmaple
+// true - capturing , top to bottom ie UL to LI 
+// false( default) - bubbling , in to out ie LI ti UL
+
 
 // (3)------------------------------------------------------------------------------------------------->
 
 
 // document.getElementById('google').addEventListener
 // ('click', function(e){
-//      e.preventDefault();
+//      e.preventDefault();     // stops default
 //      e.stopPropagation();   //stops bubbling
 //     console.log('google skipped');
    
