@@ -23,6 +23,8 @@ function user(NAME,COUNT,LOGIN){
     return this
 }
 
+//new keyword se new instance banta hai
+
 const userOne = new user("aditya",12,true);
 const userTwo = new user("money",82,false);
 console.log(userOne);
